@@ -2,7 +2,6 @@ from flask import Flask,render_template,request,redirect,url_for, session, flash
 from datetime import timedelta
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
-import rsa
 
 app=Flask(__name__)
 bcrypt = Bcrypt(app)
